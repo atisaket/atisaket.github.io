@@ -117,3 +117,13 @@
         color: #1f2937 !important;
     }
 }
+
+/* Custom scrollbar hiding for horizontal scroll */
+.scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, Opera */
+}
