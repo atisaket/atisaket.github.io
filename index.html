@@ -454,23 +454,23 @@
                     <div class="p-6">
                         <form class="space-y-6" target="_blank" action="https://formsubmit.co/info@hungamanights.com" method="POST">
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Your Name *</label>
-                                <input type="text" name="name" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Enter your full name">
+                                <!-- <label class="block text-gray-700 font-medium mb-2">Your Name *</label> -->
+                                <input type="text" name="name" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Full Name *">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Email Address *</label>
-                                <input type="email" name="email" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="your@email.com">
+                                <!-- <label class="block text-gray-700 font-medium mb-2">Email Address *</label> -->
+                                <input type="email" name="email" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Email *">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Venue Name</label>
+                                <!-- <label class="block text-gray-700 font-medium mb-2">Venue Name</label> -->
                                 <input type="text" name="venueName" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Restaurant/venue name">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Phone Number</label>
-                                <input type="tel" name="tel" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="(555) 123-4567">
+                                <!-- <label class="block text-gray-700 font-medium mb-2">Phone Number</label> -->
+                                <input type="tel" name="tel" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Phone number">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Subject *</label>
+                                <!-- <label class="block text-gray-700 font-medium mb-2">Subject *</label> -->
                                 <select name="subject" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600">
                                     <option value="">Select a subject</option>
                                     <option value="general">General Inquiry</option>
@@ -486,7 +486,7 @@
                                 <input type="hidden" name="_autoresponse" value="Thank you for your interest in Hungama Nights! We will get back to you within 1-2 business days.">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Message *</label>
+                                <!-- <label class="block text-gray-700 font-medium mb-2">Message *</label> -->
                                 <textarea name="message" rows="4" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Your message..."></textarea>
                             </div>
                             <button type="submit" class="w-full bg-gradient-to-r from-red-600 to-orange-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center">
@@ -679,7 +679,7 @@
         // Form submissions
         document.querySelectorAll('form').forEach(form => {
             form.addEventListener('submit', function(e) {
-                this.reset();
+                //this.reset();
                 alert('Form submitted!');
             });
         });
