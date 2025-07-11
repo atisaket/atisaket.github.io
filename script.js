@@ -48,13 +48,6 @@ function initScrollEffects() {
 
         lastScrollY = currentScrollY;
 
-        // Parallax effect for hero section
-        const hero = document.getElementById("home");
-        if (hero) {
-            const scrolled = window.pageYOffset;
-            const parallax = scrolled * 0.5;
-            hero.style.transform = `translateY(${parallax}px)`;
-        }
 
         // Fade in elements on scroll
         const elements = document.querySelectorAll(".fade-on-scroll");

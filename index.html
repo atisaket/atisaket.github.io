@@ -106,16 +106,6 @@
             position: relative;
         }
         
-        /* Hero section specific */
-        #home {
-            box-sizing: border-box;
-        }
-        
-        /* About section specific */
-        #about {
-            margin-top: 0;
-            z-index: 10;
-        }
     </style>
 </head>
 <body class="min-h-screen gradient-bg">
@@ -156,20 +146,8 @@
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20">
-        <!-- Background Elements -->
-        <div class="absolute inset-0 bg-gradient-to-br from-hungama-red/10 via-hungama-orange/10 to-hungama-yellow/10"></div>
-        <div class="absolute top-20 left-10 animate-bounce-slow">
-            <i data-lucide="music" class="text-hungama-yellow text-4xl opacity-20 w-10 h-10"></i>
-        </div>
-        <div class="absolute top-40 right-20 animate-pulse-slow">
-            <i data-lucide="help-circle" class="text-hungama-orange text-5xl opacity-20 w-12 h-12"></i>
-        </div>
-        <div class="absolute bottom-40 left-20 animate-wiggle">
-            <i data-lucide="mic" class="text-hungama-red text-3xl opacity-20 w-8 h-8"></i>
-        </div>
-
-        <div class="container mx-auto px-4 text-center relative z-10">
+    <section id="home" class="py-20 bg-gradient-to-br from-hungama-red/10 via-hungama-orange/10 to-hungama-yellow/10">
+        <div class="container mx-auto px-4 text-center py-20">
             <!-- Main Banner -->
             <div class="mb-8 flex justify-center">
                 <div class="relative">
@@ -208,7 +186,7 @@
     </section>
 
     <!-- About Us Section -->
-    <section id="about" class="py-20 bg-gradient-to-br from-orange-50 to-red-50 relative">
+    <section id="about" class="py-20 bg-gradient-to-br from-orange-50 to-red-50">
         <div class="container mx-auto px-4">
             <div class="max-w-4xl mx-auto text-center">
                 <h2 class="text-4xl md:text-5xl font-bold mb-8 text-gray-800">About Us</h2>
