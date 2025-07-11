@@ -78,10 +78,12 @@ function renderEvents(events) {
         lucide.createIcons();
     }
     
-    // Update navigation buttons
-    if (typeof updateButtonStates === 'function') {
-        setTimeout(updateButtonStates, 100);
-    }
+    // Update navigation buttons after events are loaded
+    setTimeout(() => {
+        if (typeof initEventsNavigation === 'function') {
+            initEventsNavigation();
+        }
+    }, 100);
 }
 
 // Function to load and display events
