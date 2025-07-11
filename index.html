@@ -679,6 +679,7 @@
         // Form submissions
         document.querySelectorAll('form').forEach(form => {
             form.addEventListener('submit', function(e) {
+                this.reset();
                 alert('Form submitted!');
             });
         });
