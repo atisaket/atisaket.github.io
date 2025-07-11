@@ -325,13 +325,13 @@
                 </p>
             </div>
 
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-                <!-- Benefits -->
-                <div>
-                    <h3 class="font-comfortaa font-semibold text-2xl text-red-600 mb-8">
+            <!-- Centered Benefits Section -->
+            <div class="flex justify-center">
+                <div class="max-w-4xl">
+                    <h3 class="font-comfortaa font-semibold text-2xl text-red-600 mb-8 text-center">
                         Why Partner with Us?
                     </h3>
-                    <div class="space-y-6">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <div class="flex items-start space-x-4">
                             <div class="w-12 h-12 bg-red-600 rounded-full flex items-center justify-center flex-shrink-0">
                                 <i data-lucide="trending-up" class="text-white w-5 h-5"></i>
@@ -381,95 +381,11 @@
                         </div>
                     </div>
                 </div>
-
-                <!-- Inquiry Form -->
-                <div class="bg-white shadow-xl rounded-3xl overflow-hidden">
-                    <div class="text-center p-6 border-b">
-                        <h3 class="font-comfortaa font-semibold text-2xl text-red-600">
-                            Host a Hungama Night at Your Venue
-                        </h3>
-                    </div>
-                    <div class="p-6">
-                        <form class="space-y-6" target="_blank" action="https://formsubmit.co/info@hungamanights.com" method="POST">
-                            <div>
-                                <label class="block text-gray-700 font-medium mb-2">Your Name *</label>
-                                <input type="text" name="name" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Enter your full name">
-                            </div>
-                            <div>
-                                <label class="block text-gray-700 font-medium mb-2">Venue Name *</label>
-                                <input type="text" name="venueName" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Restaurant/venue name">
-                            </div>
-                            <div>
-                                <label class="block text-gray-700 font-medium mb-2">Phone Number *</label>
-                                <input type="tel" name="tel" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="(555) 123-4567">
-                            </div>
-                            <div>
-                                <label class="block text-gray-700 font-medium mb-2">Email Address *</label>
-                                <input type="email" name="email" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="your@email.com">
-                            </div>
-                            <div>
-                                <input type="hidden" name="_subject" value="New Partnership Inquiry!">
-                            </div>
-                            <div>
-                                <input type="hidden" name="_autoresponse" value="Thank you for your interest in Hungama Nights! We will get back to you within 1-2 business days.">
-                            </div>
-                            <div>
-                                <label class="block text-gray-700 font-medium mb-2">Message</label>
-                                <textarea rows="4" name="message" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Tell us about your venue..."></textarea>
-                            </div>
-                            <button type="submit" class="w-full bg-gradient-to-r from-red-600 to-orange-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center">
-                                <i data-lucide="send" class="mr-2 w-4 h-4"></i>
-                                Send Partnership Inquiry
-                            </button>
-                        </form>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Gallery Section -->
-    <section id="gallery" class="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
-        <div class="container mx-auto px-4">
-            <div class="text-center mb-16">
-                <h2 class="font-comfortaa font-bold text-4xl md:text-5xl text-purple-600 mb-4">
-                    <i data-lucide="images" class="inline text-pink-500 mr-4"></i>
-                    Gallery
-                </h2>
-                <p class="text-xl text-gray-700 max-w-2xl mx-auto">
-                    See the energy, excitement, and pure masti from our previous events!
-                </p>
-            </div>
-
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <!-- Placeholder gallery images -->
-                <div class="aspect-square bg-gradient-to-br from-purple-400 to-pink-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-pink-400 to-red-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-red-400 to-orange-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-orange-400 to-yellow-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-yellow-400 to-green-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-green-400 to-teal-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-teal-400 to-blue-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-                <div class="aspect-square bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
-                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
-                </div>
-            </div>
-        </div>
-    </section>
+   
 
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
@@ -538,15 +454,23 @@
                     <div class="p-6">
                         <form class="space-y-6" target="_blank" action="https://formsubmit.co/info@hungamanights.com" method="POST">
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Name</label>
-                                <input type="text" name="name" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Your name">
+                                <label class="block text-gray-700 font-medium mb-2">Your Name *</label>
+                                <input type="text" name="name" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Enter your full name">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Email</label>
-                                <input type="email" name="email" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="your@email.com">
+                                <label class="block text-gray-700 font-medium mb-2">Email Address *</label>
+                                <input type="email" name="email" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="your@email.com">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Subject</label>
+                                <label class="block text-gray-700 font-medium mb-2">Venue Name</label>
+                                <input type="text" name="venueName" required class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Restaurant/venue name">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Phone Number</label>
+                                <input type="tel" name="tel" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="(555) 123-4567">
+                            </div>
+                            <div>
+                                <label class="block text-gray-700 font-medium mb-2">Subject *</label>
                                 <select name="subject" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600">
                                     <option value="">Select a subject</option>
                                     <option value="general">General Inquiry</option>
@@ -562,7 +486,7 @@
                                 <input type="hidden" name="_autoresponse" value="Thank you for your interest in Hungama Nights! We will get back to you within 1-2 business days.">
                             </div>
                             <div>
-                                <label class="block text-gray-700 font-medium mb-2">Message</label>
+                                <label class="block text-gray-700 font-medium mb-2">Message *</label>
                                 <textarea name="message" rows="4" class="w-full rounded-xl border border-gray-300 px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-600 focus:border-red-600" placeholder="Your message..."></textarea>
                             </div>
                             <button type="submit" class="w-full bg-gradient-to-r from-red-600 to-orange-600 text-white py-3 rounded-xl font-semibold hover:shadow-lg transition-all duration-300 flex items-center justify-center">
@@ -575,6 +499,50 @@
             </div>
         </div>
     </section>
+
+     <!-- Gallery Section -->
+    <section id="gallery" class="py-20 bg-gradient-to-br from-purple-50 to-pink-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="font-comfortaa font-bold text-4xl md:text-5xl text-purple-600 mb-4">
+                    <i data-lucide="images" class="inline text-pink-500 mr-4"></i>
+                    Gallery
+                </h2>
+                <p class="text-xl text-gray-700 max-w-2xl mx-auto">
+                    See the energy, excitement, and pure masti from our previous events!
+                </p>
+            </div>
+
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                <!-- Placeholder gallery images -->
+                <div class="aspect-square bg-gradient-to-br from-purple-400 to-pink-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-pink-400 to-red-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-red-400 to-orange-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-orange-400 to-yellow-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-yellow-400 to-green-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-green-400 to-teal-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-teal-400 to-blue-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+                <div class="aspect-square bg-gradient-to-br from-blue-400 to-purple-400 rounded-lg shadow-lg card-hover flex items-center justify-center">
+                    <i data-lucide="image" class="w-12 h-12 text-white"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer -->
     <footer class="bg-gray-900 text-white py-12">
